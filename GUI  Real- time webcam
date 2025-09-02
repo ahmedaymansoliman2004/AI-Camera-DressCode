@@ -51,7 +51,7 @@ class DressCodeCamApp:
 
         
         win_width = self.root.winfo_width()
-        win_height = self.root.winfo_height() - 100  # reserve space for labels/buttons
+        win_height = self.root.winfo_height() - 100  
 
        
         frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
