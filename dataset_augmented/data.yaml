@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Crop_Top', 'Miniskirt', 'Shorts', 'Sleeveless', 'low_neckline', 'ripped_pants']
+
+roboflow:
+  workspace: simon-lee-ud1fw
+  project: newass
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/simon-lee-ud1fw/newass/dataset/2
